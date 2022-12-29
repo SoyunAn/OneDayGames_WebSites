@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{ 
+  font-family: 'CookieRun-Regular';
+  box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.Insta{
+    background-image: url('Rectangle\ 897.png');
+    background-size: 308px 63px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    padding: 20px 40px;
+}
+.Twitter{
+    background-image: url('Rectangle\ 898.png');
+    width: 308px;
+    height: 63px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+.GoogleApp{
+    background-image: url('Rectangle\ 899.png');
+    width: 308px;
+    height: 63px;
+    text-align: center;
+    display: block;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+.AppleApp{
+    background-image: url('Rectangle\ 900.png');
+    width: 308px;
+    height: 63px;
+    text-align: center;
+    display: block;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+
+a{
+   
+    color: black;
+    display: inline-block; 
+    margin: 20px;
+    
+}
+
+.pre{
+    text-align:right;
+}
+
+
+.TopButton{
+    text-align: center;
+}
+
+.SNS{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+}
